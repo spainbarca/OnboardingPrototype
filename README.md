@@ -5,76 +5,48 @@ https://img.shields.io/badge/License-MIT-green
 
 Aplicación móvil desarrollada en Flutter para gestionar el proceso de onboarding de nuevos analistas en un Service Desk. Esta app permite dar seguimiento a las tareas de integración, contactar con diferentes áreas y visualizar el progreso de manera interactiva.
 
+
+📱 Capturas de Pantalla
+<div align="center"> <img src="screenshots/lista.png" alt="Pantalla de Lista" width="200"/> <img src="screenshots/contacto.png" alt="Pantalla de Contactos" width="200"/> <img src="screenshots/progreso.png" alt="Pantalla de Progreso" width="200"/> <img src="screenshots/progreso2.png" alt="Pantalla de Progreso por dias" width="200"/> </div>
+
+
 ✨ Características Principales
 📋 Pantalla de Lista
 Pestañas interactivas: Día 1, Días 2-3, Día 4-5
 
 Tareas clickeables que cambian de estado (Completado/En curso/Pendiente)
-
 Checklist visual con checkboxes
-
 Estados con colores distintivos:
 
 ✅ Verde: Completado/Listo
-
 ⏳ Naranja: En curso
-
 ⭕ Gris: Pendiente
 
 👥 Pantalla de Contactos
 4 contactos clave de diferentes áreas:
-
-Carlos Mendoza - Jefatura TI
-
-Ana Torres - Soporte
-
-Roberto Sánchez - Infraestructura
-
-María López - Gerencia TI
-
-Tarjetas de contacto con:
-
-Avatar con iniciales y color distintivo por área
-
-Nombre, rol y departamento
-
-Email y teléfono
-
 Botón para enviar mensaje
 
 📊 Pantalla de Progreso
 Barra de progreso general con porcentaje en tiempo real
-
 Gráfico lineal personalizado que muestra la evolución del progreso
-
 Detalle por día con barras de progreso individuales
-
 Consejos motivacionales que cambian según el avance:
-
 < 30%: "Comienza por las tareas más importantes"
-
 30-70%: "Vas por buen camino. Sigue completando las tareas"
-
 70%: "¡Excelente trabajo! Ya casi terminas tu onboarding"
 
 Cálculo automático del progreso total basado en checklists
 
 🎯 Funcionalidades Interactivas
 ✅ Tareas clickeables: Cada tarea se puede marcar/desmarcar
-
 🔄 Actualización en tiempo real: El progreso se actualiza automáticamente
-
 📱 Navegación fluida: Entre Lista, Contactos y Progreso
-
 🎨 Interfaz responsive: Se adapta a diferentes tamaños de pantalla
 
 🛠️ Tecnologías Utilizadas
 Flutter - Framework UI
-
 Dart - Lenguaje de programación
-
 Material Design 3 - Sistema de diseño
-
 CustomPainter - Para gráficos personalizados
 
 📦 Estructura del Proyecto
@@ -87,11 +59,8 @@ ios/                          # Configuración nativa de iOS
 🚀 Cómo Ejecutar el Proyecto
 Prerrequisitos
 Flutter SDK (versión 3.x o superior)
-
 Dart SDK (versión 3.x o superior)
-
 Android Studio / VS Code
-
 Emulador Android o dispositivo físico
 
 Pasos
@@ -121,43 +90,23 @@ Los APKs se generarán en: build/app/outputs/flutter-apk/
 Pantalla de Lista: Marca/desmarca las tareas completadas
 
 Pantalla de Contactos: Visualiza la información de contacto del equipo
-
 Pantalla de Progreso: Monitorea tu avance en tiempo real
-
 Navegación: Usa el menú inferior para cambiar entre pantallas
 
 🎨 Paleta de Colores
 Azul corporativo (#0066CC): Color principal
-
 Verde: Tareas completadas
-
 Naranja: Tareas en curso
-
 Gris: Tareas pendientes
 
-🤝 Contribuciones
-Las contribuciones son bienvenidas. Por favor:
-
-Fork el proyecto
-
-Crea una rama (git checkout -b feature/AmazingFeature)
-
-Commit tus cambios (git commit -m 'Add some AmazingFeature')
-
-Push a la rama (git push origin feature/AmazingFeature)
-
-Abre un Pull Request
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
 📧 Contacto
-Desarrollador: [Tu Nombre]
-
-GitHub: @tuusuario
-
-LinkedIn: Tu Perfil
-
-Email: tu@email.com
+Desarrollador: [Noah]
+GitHub: @spainbarca
+LinkedIn: https://pe.linkedin.com/in/noe-joel-martinez-hancco-7024782a5
+Email: spain.barcelona.1999@gmail.com
 
 <div align="center"> Desarrollado con ❤️ usando Flutter </div> ```
